@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyableInterface", "Backend
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankAccountSystem", "Backend\OOP-Demo\BankAccountSystem\BankAccountSystem.csproj", "{69F4EA06-00C1-4C28-AB48-4208DDDCA4BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManager", "Backend\UserManager-Demo\UserManager\UserManager.csproj", "{963B3B8B-C3AE-43CF-8312-06BB38ED903B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{69F4EA06-00C1-4C28-AB48-4208DDDCA4BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69F4EA06-00C1-4C28-AB48-4208DDDCA4BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69F4EA06-00C1-4C28-AB48-4208DDDCA4BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{963B3B8B-C3AE-43CF-8312-06BB38ED903B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{963B3B8B-C3AE-43CF-8312-06BB38ED903B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{963B3B8B-C3AE-43CF-8312-06BB38ED903B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{963B3B8B-C3AE-43CF-8312-06BB38ED903B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
