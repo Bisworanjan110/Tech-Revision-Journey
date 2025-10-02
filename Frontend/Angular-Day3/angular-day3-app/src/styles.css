@@ -1,0 +1,67 @@
+.user-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.user-card {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: #1c1c1c;
+  color: #e0e0e0;
+}
+
+  .user-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+  }
+
+
+.bg-gradient-primary {
+  background: linear-gradient(135deg, #000000, #444444);
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1); 
+  color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+
+.role-badge {
+  font-size: 0.75rem;
+  padding: 0.35em 0.5em;
+  border-radius: 10px;
+  font-weight: 500;
+  background-color: #333333; 
+  color: #e0e0e0;
+}
+
+
+.card-text {
+  font-size: 0.9rem;
+  color: #e0e0e0; 
+
+
+.btn-outline-primary {
+  font-weight: 500;
+  transition: all 0.2s;
+  border-color: #e0e0e0;
+  color: #e0e0e0;
+}
+
+  .btn-outline-primary:hover {
+    background-color: #e0e0e0;
+    color: #000000;
+    border-color: #e0e0e0;
+  }

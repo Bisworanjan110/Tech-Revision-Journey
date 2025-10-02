@@ -1,0 +1,14 @@
+<div class="user-grid">
+  <div *ngFor="let user of users" class="card user-card shadow-sm">
+    <div class="card-header d-flex align-items-center bg-gradient-primary text-white">
+      <div class="avatar">
+        {{ user.name.charAt(0) | uppercase }}
+      </div>
+      <h5 class="ms-3 mb-0">{{ user.name }}</h5>
+      <span class="badge bg-light text-dark ms-auto role-badge">{{ user.role }}</span>
+    </div>
+    <div class="card-body">
+      <p class="card-text"><strong>Email:</strong> {{ user.email }}</p>
+    </div>
+  </div>
+</div>

@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManager", "Backend\User
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductAPIDemo", "Backend\ProductApiDemo\ProductAPIDemo\ProductAPIDemo.csproj", "{C650E31D-BE5E-4391-8CAA-17BC1824ABC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCorePractice.DAL", "Backend\EFCoreDemo\EFCorePractice\EFCorePractice.DAL.csproj", "{CC3153F3-FBFA-4FB0-AF11-CB98E3302154}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreConsoleApp", "Backend\EFCoreDemo\EFCoreConsoleApp\EFCoreConsoleApp.csproj", "{CFB1521B-CAD3-4EC7-9D28-15201F479678}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{C650E31D-BE5E-4391-8CAA-17BC1824ABC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C650E31D-BE5E-4391-8CAA-17BC1824ABC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C650E31D-BE5E-4391-8CAA-17BC1824ABC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC3153F3-FBFA-4FB0-AF11-CB98E3302154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC3153F3-FBFA-4FB0-AF11-CB98E3302154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC3153F3-FBFA-4FB0-AF11-CB98E3302154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC3153F3-FBFA-4FB0-AF11-CB98E3302154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB1521B-CAD3-4EC7-9D28-15201F479678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB1521B-CAD3-4EC7-9D28-15201F479678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB1521B-CAD3-4EC7-9D28-15201F479678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB1521B-CAD3-4EC7-9D28-15201F479678}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
